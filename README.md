@@ -14,16 +14,14 @@ The extension is very simple and does the following:
 
 ## Installation
 
-The extension is available for both Chrome and Firefox. At the current time, it's not yet published to the offical extension stores, so you'll have to install it manually.
+The extension supports both Chrome and Firefox.
 
+Install the extension for Chrome from the [Chrome Web Store](https://chromewebstore.google.com/detail/github-pr-whitespace-hide/aoifieokalihpijglaaephlingngophm)
+
+For Firefox, the extension needs to be installed manually:
 1. Download the ZIP archive from the [latest release](https://github.com/dhaus67/hide-whitespaces-extension/releases/latest).
-2. For Chrome:
-    - Unzip the archive.
-    - Go to `chrome://extensions/` in your browser.
-    - Enable Developer mode.
-    - Click on "Load unpacked" and select the unzipped folder.
-3. For Firefox:
+2. Install the extension:
     - Unzip the archive.
     - Go to `about:debugging#/runtime/this-firefox` in your browser.
     - Click on "Load Temporary Add-on" and select the `manifest.json` file from the unzipped folder.
-4. Now whenever you are visiting a PR review page (e.g. `https://github.com/octo-org/repo/pull/123/files`) the whitespaces will be hidden automatically and the page will be reloaded.
+3. Now whenever you are visiting a PR review page (e.g. `https://github.com/octo-org/repo/pull/123/files`) the whitespaces will be hidden automatically and the page will be reloaded.
