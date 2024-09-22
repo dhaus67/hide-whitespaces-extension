@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GitHub PR Whitespace Hider",
-  "version": "1.0",
+  "version": "1.0.2",
   "description": "Automatically hides whitespace changes in GitHub PR diffs",
   "permissions": ["tabs", "scripting"],
   "host_permissions": ["https://github.com/*"],
